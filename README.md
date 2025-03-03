@@ -3,7 +3,8 @@
 ## Overview
 This project is a **Laptop Price Predictor** web application built using **Flask**. It utilizes a machine learning model to predict the price of a laptop based on various features such as RAM, weight, brand, CPU, GPU, and more.
 
-##UI Preview
+## UI Preview
+
 ![Application UI](Web_UI.png)
 
 ## Features
