@@ -1,0 +1,99 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    padding: 0 10px;
+}
+
+.wrapper {
+    max-width: 500px;
+    width: 100%;
+    background: #fff;
+    margin: 50px auto;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.wrapper .title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #2a5298;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.wrapper .form {
+    width: 100%;
+}
+
+.wrapper .form .inputfield {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .form .inputfield label {
+    width: 180px;
+    color: #333;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.check {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.wrapper .form .inputfield .input,
+.wrapper .form .inputfield .custom_select select {
+    width: 100%;
+    outline: none;
+    border: 2px solid #2a5298;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.wrapper .form .inputfield .input:focus,
+.wrapper .form .inputfield .custom_select select:focus {
+    border-color: #1e3c72;
+    box-shadow: 0 0 8px rgba(30, 60, 114, 0.2);
+}
+
+.wrapper .form .inputfield .btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background: linear-gradient(to right, #2a5298, #1e3c72);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.wrapper .form .inputfield .btn:hover {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    transform: scale(1.05);
+}
+
+.result p {
+    text-align: center;
+    color: #1e3c72;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
